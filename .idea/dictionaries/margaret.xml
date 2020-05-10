@@ -53,6 +53,8 @@
       <w>illo</w>
       <w>initialism</w>
       <w>ipsum</w>
+      <w>itsdangerous</w>
+      <w>jinja</w>
       <w>jumbotron</w>
       <w>linecap</w>
       <w>linejoin</w>
@@ -86,6 +88,7 @@
       <w>ullam</w>
       <w>unstyled</w>
       <w>webkit</w>
+      <w>werkzeug</w>
       <w>xmlns</w>
     </words>
   </dictionary>
