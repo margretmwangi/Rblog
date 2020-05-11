@@ -1,4 +1,4 @@
-#!/home/margaret/PycharmProjects/mimoblog/venv/bin/python3.7
+#!/home/margaret/PycharmProjects/mimoblog/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
