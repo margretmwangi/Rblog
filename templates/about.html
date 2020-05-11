@@ -8,7 +8,11 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
+  <style>title{text-align:center}</style>
   <title>Maggie's Blog</title>
+  <style>
+    body {background-color: powderblue;}
+  </style>
 
   <!-- Bootstrap core CSS -->
   <link href="{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet">
@@ -29,9 +33,6 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="{{ url_for('index') }}">About</a>
           </li>
           <li class="nav-item">
@@ -46,7 +47,6 @@
   </nav>
 
   <!-- Page Header -->
-       <header class="masthead" style="background-image: url('{{ url_for('static', filename='about1.jpg') }}')">
          <div class="overlay"></div>
     <div class="container">
       <div class="row">
